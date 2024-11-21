@@ -32,9 +32,13 @@
     <div class="col-sm-12 col-md-6 mt-4">
       <div class="card bg-verylightpurple h-100">
         <div class="card-header m-0"> Upcoming Events </div>
-        <div class="card-body"> <img class="img-fluid rounded-2" src="images/nanoicon.jpg" alt="Nanoicon 2022">
-          <p class="mt-4">NANOicon 2022 is an International Conference organized by Inter University Centre for Nanomaterials and Devices (IUCND) of Cochin University of Science and Technology scheduled to be held online from January 11 to 15, 2022. </p>
-          <a class="button rounded-pill orangebutton float-end" href="https://www.nanoicon2022.org/" target="_blank">Read More</a> </div>
+        <div class="card-body"> <img class="img-fluid rounded-2" src="images/isimee-header.webp" alt="Isimee Header image">
+            <h5 class="mt-3">
+                <strong>International Symposium on Innovative Materials for Energy and Environment 2024</strong>
+            </h5>
+          <p class="mt-3">The <strong>International Symposium on Innovative Materials for Energy and Environment
+                  (IMEE-2024)</strong>, organized under the SPARC-funded project 'LIFE - Leveraging Integrated Systems for Future Energy', aims to foster collaboration among researchers, scientists, and industry experts to address critical challenges in energy and environmental sustainability. Hosted by IUCND in collaboration with Flinders University, Australia, the National Institute of Technology, Calicut, and St. Teresa’s College, Ernakulam, the symposium will feature keynote lectures by global experts, panel discussions, technical sessions, and interactive poster presentations. Supported by the Scheme for Promotion of Academic and Research Collaboration (SPARC), and Anusandhan National Research Foundation (ANRF) this event offers a unique platform for networking and knowledge exchange. For program details, registrations, and updates, visit the IMEE-2024 website.</p>
+          <a class="button rounded-pill orangebutton float-end" href="https://isimee2024.com/" target="_blank">IMEE-2024 website</a> </div>
       </div>
     </div>
     <!-- End Upcoming Events --> 
