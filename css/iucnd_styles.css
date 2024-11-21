@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+/* Register Colors */
+.darkpurple {
+    color: #242732;
+}
+.orange {
+    color: #e4591b;
+}
+.purple {
+    background-color: #4e6bcc;
+}
+.lightpurple {
+    background-color: #6f789e;
+}
+.lightgray {
+    background-color: #cccccc;
+}
+.verylightpurple {
+    color: #ced0db;
+}
+.bg-darkpurple {
+    background-color: #242732;
+}
+.bg-orange {
+    background-color: #e4591b;
+}
+.bg-purple {
+    background-color: #4e6bcc;
+}
+.bg-lightpurple {
+    background-color: #6f789e;
+}
+.bg-verylightpurple {
+    background-color: #ced0db;
+}
+.bg-lightgray {
+    background-color: #cccccc;
+}
+/* font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav a {
+    margin: 0 10px;
+}
+.nav-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #6f789e !important;
+    display: inline-block;
+    position: relative;
+    padding: 0 !important;
+}
+.navbar-nav .active {
+    color: #e4591b !important;
+}
+.navbar-nav .non-active {
+    display: inline-block;
+    position: relative;
+}
+.navbar-nav .non-active:hover {
+    color: #e4591b !important;
+}
+.dropdown-menu {
+	overflow: hidden;
+}
+.dropdown-item:hover {
+	background-color: #e4591b !important;
+	color: white;
+}
+.card-header {
+    background-color: #242732;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #cccccc;
+    text-align: left;
+}
+.home-bigmenu {
+    background-color: #e4591b;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.home-bigmenu:hover {
+    background-color: #242732;
+    -webkit-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+.home-bigmenu img {
+    margin-right: 10px;
+}
+.name {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.designation {
+    font-size: .8em;
+    font-weight: 400;
+}
+.orangebutton, .orangebutton:active {
+    background-color: #e4591b;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+.orangebutton:hover {
+    background-color: #242732;
+    color: white;
+}
+.newsheadline {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color: #242732;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.topic-heading {
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #e4591b;
+    padding: 5px 10px;
+}
+.inline-link, .inline-link:active {
+    background-color: #242732;
+    text-decoration: none;
+}
+.inline-link:hover {
+    background-color: #e4591b;
+    color: white;
+}
+.iucnd-list li {
+    border-bottom: 1px solid #e4591b;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.faculty-designation {
+    text-transform: capitalize;
+    font-size: .9em;
+    color: #e4591b;
+}
+.faculty-address {
+    font-size: 1em;
+}
+.faculty-subhead {
+    background-color: #242732;
+    color: #cccccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.faculty-gridcard {
+    background-color: #242732;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #cccccc;
+    text-align: left;
+}
+.faculty-name {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #cccccc;
+}
+.faculty-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .9em;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #e4591b;
+}
+.faculty-image:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+.card-transparent {
+    background-color: transparent !important;
+    border: none !important;
+}
+.modal-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #242732;
+}
+.modal-subtitle {
+    font-size: 0.9em;
+    color: #e4591b;
+}
+.modal-titlearea {
+    border-bottom: 2px solid #242732;
+}
+.footer p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1em;
+    color: #6f789e;
+}
+.footer a {
+    text-decoration: none !important;
+    color: #6f789e !important;
+}
+.footer a:hover {
+    color: #e4591b !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

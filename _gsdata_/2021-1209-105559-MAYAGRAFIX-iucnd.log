@@ -1,0 +1,8 @@
+2021-12-09 10:56:01: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 10:56:02: Turning Off Copy Attributes, as one of file systems does not support it
+2021-12-09 10:56:02: Turning Off Copy Symbolic Links, as one of file systems does not support it. You may want to consider using Job -> Options -> Advanced -> Links -> Drill Down, if you need to copy folder to which the link points
+2021-12-09 10:56:03: -- Analysis Started by User Command
+2021-12-09 10:56:13: R: On disk ftp://198.54.125.239:21 space required for sync is 2.05 KB, free space is unknown
+2021-12-09 10:56:13: Changes: 4, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 157
+2021-12-09 10:56:13: Left to Right: Copy File: 4 
+2021-12-09 10:56:13: -- Analysis Complete. Time 00:00:14, Speed: 6 files/s

@@ -1,0 +1,5 @@
+2021-12-09 11:27:42: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 11:27:43: == Sync Started by User Command
+2021-12-09 11:27:46: Start only 1 threads, limited by tasks to run
+2021-12-09 11:27:50: Copy Over 'D:/Work/Honey/IUCND Site/IUCND_Develop/contact.php' -> 'ftp://198.54.125.239:21/iucnd/contact.php' (5,515)
+2021-12-09 11:27:55: == Sync Complete. Time: 00:00:15, Speed: 6.32 KB/s, OK: 1, Errors: 0

@@ -1,0 +1,5 @@
+2022-01-04 14:23:09: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-04 14:23:11: -- Analysis Started by User Command
+2022-01-04 14:23:20: R: On disk ftp://198.54.125.239:21 space required for sync is 0.00, free space is unknown
+2022-01-04 14:23:20: Changes: 0, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 171
+2022-01-04 14:23:20: -- Analysis Complete. Time 00:00:13, Speed: 7 files/s

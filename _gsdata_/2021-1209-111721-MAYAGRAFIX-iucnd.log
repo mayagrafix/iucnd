@@ -1,0 +1,6 @@
+2021-12-09 11:17:49: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 11:17:50: == Sync Started by User Command
+2021-12-09 11:17:55: Delete File ftp://198.54.125.239:21/iucnd/datafiles/patents.csv
+2021-12-09 11:17:55: Start only 1 threads, limited by tasks to run
+2021-12-09 11:17:58: Copy Over 'D:/Work/Honey/IUCND Site/IUCND_Develop/datafiles/publications.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/publications.csv' (15,860)
+2021-12-09 11:18:04: == Sync Complete. Time: 00:00:17, Speed: 11.25 KB/s, OK: 2, Errors: 0

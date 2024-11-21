@@ -1,0 +1,36 @@
+2022-01-09 15:50:40: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-09 15:50:40: == Sync Started by User Command
+2022-01-09 15:50:45: Delete File ftp://198.54.125.239:21/iucnd/css/bootstrap-4.4.1.css
+2022-01-09 15:50:46: Delete File ftp://198.54.125.239:21/iucnd/datafiles/publications.csv
+2022-01-09 15:50:47: Create Folder ftp://198.54.125.239:21/iucnd/images/gallery
+2022-01-09 15:50:48: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-09 15:50:51: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-09 15:50:53: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/css/iucnd_styles.css' -> 'ftp://198.54.125.239:21/iucnd/css/iucnd_styles.css' (5,511)
+2022-01-09 15:50:53: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-09 15:50:55: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/conferences.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/conferences.csv' (5,325)
+2022-01-09 15:50:55: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/css/lightbox.css' -> 'ftp://198.54.125.239:21/iucnd/css/lightbox.css' (3,580)
+2022-01-09 15:50:57: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/patents.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/patents.csv' (1,030)
+2022-01-09 15:50:57: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/journal.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/journal.csv' (16,311)
+2022-01-09 15:50:57: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/menu.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/menu.csv' (422)
+2022-01-09 15:50:59: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/projects.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/projects.csv' (192)
+2022-01-09 15:50:59: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/gallery.php' -> 'ftp://198.54.125.239:21/iucnd/gallery.php' (308)
+2022-01-09 15:51:00: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/publicationssubmenu.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/publicationssubmenu.csv' (224)
+2022-01-09 15:51:01: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/close.png' -> 'ftp://198.54.125.239:21/iucnd/images/close.png' (280)
+2022-01-09 15:51:02: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/loading.gif' -> 'ftp://198.54.125.239:21/iucnd/images/loading.gif' (8,476)
+2022-01-09 15:51:02: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/gallery/gallery_001.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/gallery/gallery_001.jpg' (215,619)
+2022-01-09 15:51:03: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/next.png' -> 'ftp://198.54.125.239:21/iucnd/images/next.png' (1,350)
+2022-01-09 15:51:04: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/prev.png' -> 'ftp://198.54.125.239:21/iucnd/images/prev.png' (1,360)
+2022-01-09 15:51:05: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/includes/footer.php' -> 'ftp://198.54.125.239:21/iucnd/includes/footer.php' (966)
+2022-01-09 15:51:06: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/includes/header.php' -> 'ftp://198.54.125.239:21/iucnd/includes/header.php' (2,287)
+2022-01-09 15:51:06: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/includes/functions.php' -> 'ftp://198.54.125.239:21/iucnd/includes/functions.php' (17,935)
+2022-01-09 15:51:08: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/js/iucnd-script.js' -> 'ftp://198.54.125.239:21/iucnd/js/iucnd-script.js' (112)
+2022-01-09 15:51:09: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/js/lightbox.js' -> 'ftp://198.54.125.239:21/iucnd/js/lightbox.js' (20,097)
+2022-01-09 15:51:09: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/js/jquery-3.6.0.min.js' -> 'ftp://198.54.125.239:21/iucnd/js/jquery-3.6.0.min.js' (89,501)
+2022-01-09 15:51:10: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/projects.php' -> 'ftp://198.54.125.239:21/iucnd/projects.php' (1,143)
+2022-01-09 15:51:11: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/publications.php' -> 'ftp://198.54.125.239:21/iucnd/publications.php' (629)
+2022-01-09 15:51:14: Deleted Recycled: D:/Work/Cochin University/IUCND/IUCND_Develop/_gsdata_/_saved_/datafiles/publications.csv
+2022-01-09 15:51:14: Deleted Recycled: D:/Work/Cochin University/IUCND/IUCND_Develop/_gsdata_/_saved_/datafiles/publicationssubmenu.csv
+2022-01-09 15:51:14: Deleted Recycled: D:/Work/Cochin University/IUCND/IUCND_Develop/_gsdata_/_saved_/includes/functions.php
+2022-01-09 15:51:14: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/contact.php
+2022-01-09 15:51:14: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/datafiles/patents.csv
+2022-01-09 15:51:17: == Sync Complete. Time: 00:00:39, Speed: 51.92 KB/s, OK: 25, Errors: 0

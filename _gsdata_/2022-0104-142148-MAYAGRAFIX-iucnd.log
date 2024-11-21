@@ -1,0 +1,32 @@
+2022-01-04 14:22:14: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-04 14:22:15: == Sync Started by User Command
+2022-01-04 14:22:20: Delete File ftp://198.54.125.239:21/iucnd/images/facilities/facilities_01.jpg
+2022-01-04 14:22:21: Delete File ftp://198.54.125.239:21/iucnd/images/facilities/facilities_02.jpg
+2022-01-04 14:22:21: Delete File ftp://198.54.125.239:21/iucnd/images/facilities/facilities_03.jpg
+2022-01-04 14:22:22: Delete File ftp://198.54.125.239:21/iucnd/images/facilities/facilities_04.jpg
+2022-01-04 14:22:24: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-04 14:22:26: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-04 14:22:28: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/css/iucnd_styles.css' -> 'ftp://198.54.125.239:21/iucnd/css/iucnd_styles.css' (5,462)
+2022-01-04 14:22:28: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-01-04 14:22:30: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/facilities.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/facilities.csv' (4,174)
+2022-01-04 14:22:32: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/datafiles/publications.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/publications.csv' (24,701)
+2022-01-04 14:22:32: FTP: MLSD/MLST is broken, so turn it off: Listing one file is not supported (returns nothing): Not Found in the MLST
+2022-01-04 14:22:32: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/atomic.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/atomic.jpg' (14,012)
+2022-01-04 14:22:34: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/glovebox.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/glovebox.jpg' (17,796)
+2022-01-04 14:22:34: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/microwave.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/microwave.jpg' (7,984)
+2022-01-04 14:22:35: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/facilities.php' -> 'ftp://198.54.125.239:21/iucnd/facilities.php' (1,524)
+2022-01-04 14:22:36: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/mufflefurnace.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/mufflefurnace.jpg' (7,514)
+2022-01-04 14:22:36: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/oscilloscope.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/oscilloscope.jpg' (18,112)
+2022-01-04 14:22:37: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/probe.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/probe.jpg' (6,833)
+2022-01-04 14:22:38: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/quantum.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/quantum.jpg' (13,454)
+2022-01-04 14:22:39: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/rotary.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/rotary.jpg' (7,967)
+2022-01-04 14:22:40: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/solar.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/solar.jpg' (11,320)
+2022-01-04 14:22:40: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/source.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/source.jpg' (17,589)
+2022-01-04 14:22:41: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/tribo.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/tribo.jpg' (6,387)
+2022-01-04 14:22:42: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/xenon.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/xenon.jpg' (9,550)
+2022-01-04 14:22:43: Copy New 'D:/Work/Cochin University/IUCND/IUCND_Develop/images/facilities/uv.jpg' -> 'ftp://198.54.125.239:21/iucnd/images/facilities/uv.jpg' (14,561)
+2022-01-04 14:22:44: Copy Over 'D:/Work/Cochin University/IUCND/IUCND_Develop/includes/functions.php' -> 'ftp://198.54.125.239:21/iucnd/includes/functions.php' (17,585)
+2022-01-04 14:22:46: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/datafiles/menu.csv
+2022-01-04 14:22:46: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/faculty.php
+2022-01-04 14:22:46: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/index.php
+2022-01-04 14:22:50: == Sync Complete. Time: 00:00:38, Speed: 43.82 KB/s, OK: 22, Errors: 0

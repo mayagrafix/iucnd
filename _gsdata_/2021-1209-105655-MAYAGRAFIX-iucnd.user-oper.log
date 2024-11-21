@@ -1,0 +1,19 @@
+2021-12-09 10:57:05: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 10:57:06: == Sync Started by User Command
+2021-12-09 10:57:11: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 10:57:13: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 10:57:15: Copy New 'D:/Work/Honey/IUCND Site/IUCND_Develop/datafiles/patents.csv' -> 'ftp://198.54.125.239:21/iucnd/datafiles/patents.csv' (1,122)
+2021-12-09 10:57:16: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2021-12-09 10:57:16: Copy Over 'ftp://198.54.125.239:21/iucnd/datafiles/publicationssubmenu.csv' -> 'D:/Work/Honey/IUCND Site/IUCND_Develop/datafiles/publicationssubmenu.csv' (190) (User Action)
+2021-12-09 10:57:17: Copy Over 'ftp://198.54.125.239:21/iucnd/datafiles/publications.csv' -> 'D:/Work/Honey/IUCND Site/IUCND_Develop/datafiles/publications.csv' (15,592) (User Action)
+2021-12-09 10:57:17: Copy Over 'ftp://198.54.125.239:21/iucnd/includes/functions.php' -> 'D:/Work/Honey/IUCND Site/IUCND_Develop/includes/functions.php' (13,540) (User Action)
+2021-12-09 10:57:20: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/contact.php
+2021-12-09 10:57:20: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/courses.php
+2021-12-09 10:57:21: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/datafiles/faculty.csv
+2021-12-09 10:57:21: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/images/nanoicon.jpg
+2021-12-09 10:57:21: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/includes/footer.php
+2021-12-09 10:57:21: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/js/bootstrap-4.4.1.js
+2021-12-09 10:57:22: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/js/jquery-3.4.1.min.js
+2021-12-09 10:57:22: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/js/popper.min.js
+2021-12-09 10:57:22: Deleted Recycled: ftp://198.54.125.239:21/iucnd/_gsdata_/_saved_/people.php
+2021-12-09 10:57:26: == Sync Complete. Time: 00:00:23, Speed: 17.74 KB/s, OK: 4, Errors: 0
