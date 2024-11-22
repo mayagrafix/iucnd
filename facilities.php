@@ -33,7 +33,7 @@
             <ul class="iucnd-list mt-3">
               <li class="">Wet Synthesis laboratory with work benches, rotary evaporator, adequate fume hood, Glove boxes, vacuum lines, Air, N2 gas lines etc.</li>
               <li class="">Instrumentation facility such as diffuse reflectance spectrometer, spin/dip coating facilities, Electrospinning facility and glove boxes. The facility is supported by a 10KVA uninterrupted power supply system for backup power.</li>
-              <li class="">An advanced Atomic force microscope has been added recently for imaging and characterisation of the synthesised materials</li>
+              <li class="">IUCND is equipped with advanced research facilities, including an Atomic Force Microscope (AFM) for high-resolution imaging, an electrochemical workstation, a Triboelectric setup with an electrometer for energy harvesting and sensing studies, and a thermal evaporator for thin-film deposition.</li>
             </ul>
           </div>
         </div>

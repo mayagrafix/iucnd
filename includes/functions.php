@@ -301,55 +301,60 @@ function writePublicationsList($publicationsPageName)
     if ($publicationsPageName == 'patents') {
         $fileName .= "patents.csv";
     } elseif ($publicationsPageName == 'journal-articles') {
-        $journalFileNameOne = 'datafiles/journal-articles-2022.csv';
-        $journalFileNameTwo = 'datafiles/journal-articles-2021.csv';
-        $journalFileNameThree = 'datafiles/journal-articles-2020.csv';
+        $journalFiles = [
+            '2024' => 'datafiles/journal-articles-2024.csv',
+            '2023' => 'datafiles/journal-articles-2023.csv',
+            '2022' => 'datafiles/journal-articles-2022.csv',
+            '2021' => 'datafiles/journal-articles-2021.csv',
+            '2020' => 'datafiles/journal-articles-2020.csv',
+        ];
     } elseif ($publicationsPageName == 'conferences') {
         $fileName .= "conferences.csv";
     }
     $writePublicationsListHTML = "";
 
-    if($publicationsPageName != 'journal-articles') {
+    if ($publicationsPageName != 'journal-articles') {
         $writePublicationsListHTML .= '<ul class="iucnd-list">';
-        if (($handle = fopen("$fileName", "r")) !== FALSE) {
+        if (($handle = fopen($fileName, "r")) !== FALSE) {
             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                $writePublicationsListHTML .= "<li>" . $data[0] . "</li>";
+                $writePublicationsListHTML .= "<li>" . htmlspecialchars($data[0]) . "</li>";
             }
+            fclose($handle);
         }
         $writePublicationsListHTML .= '</ul>';
-        fclose($handle);
     } else {
-        $writePublicationsListHTML .= '<h6 class="badge text-wrap topic-heading">2022</h6>';
-        $writePublicationsListHTML .= '<ul class="iucnd-list">';
-        if (($handle = fopen("$journalFileNameOne", "r")) !== FALSE) {
-            while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                $writePublicationsListHTML .= "<li>" . $data[0] . "</li>";
+        foreach ($journalFiles as $year => $journalFileName) {
+            // Add the year as a heading
+            $writePublicationsListHTML .= "<h6 class=\"badge text-wrap topic-heading\">" . htmlspecialchars($year) . "</h6>";
+            $writePublicationsListHTML .= '<ol class="iucnd-list">';
+
+            // Open and process the CSV file
+            if (file_exists($journalFileName) && ($handle = fopen($journalFileName, "r")) !== FALSE) {
+                // Read and manually parse the first line to handle BOM or special cases
+                $firstLine = fgets($handle);
+                $firstLine = preg_replace('/^\xEF\xBB\xBF/', '', $firstLine); // Remove BOM if present
+                $data = str_getcsv($firstLine); // Manually parse the first line
+                if (!empty($data[0])) {
+                    $writePublicationsListHTML .= "<li>" . htmlspecialchars($data[0]) . "</li>";
+                }
+
+                // Process the remaining rows with fgetcsv
+                while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                    if (!empty($data[0])) { // Ensure non-empty rows
+                        $writePublicationsListHTML .= "<li>" . htmlspecialchars($data[0]) . "</li>";
+                    }
+                }
+                fclose($handle);
+            } else {
+                // Display an error message if the file is missing
+                $writePublicationsListHTML .= "<li>Unable to load data for $year.</li>";
             }
+
+            $writePublicationsListHTML .= '</ol>';
         }
-        $writePublicationsListHTML .= '</ul>';
-        fclose($handle);
-        $writePublicationsListHTML .= '<h6 class="badge text-wrap topic-heading">2021</h6>';
-        $writePublicationsListHTML .= '<ul class="iucnd-list">';
-        if (($handle = fopen("$journalFileNameTwo", "r")) !== FALSE) {
-            while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                $writePublicationsListHTML .= "<li>" . $data[0] . "</li>";
-            }
-        }
-        $writePublicationsListHTML .= '</ul>';
-        fclose($handle);
-        $writePublicationsListHTML .= '<h6 class="badge text-wrap topic-heading">2020</h6>';
-        $writePublicationsListHTML .= '<ul class="iucnd-list">';
-        if (($handle = fopen("$journalFileNameThree", "r")) !== FALSE) {
-            while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                $writePublicationsListHTML .= "<li>" . $data[0] . "</li>";
-            }
-        }
-        $writePublicationsListHTML .= '</ul>';
-        fclose($handle);
+
     }
 
     return $writePublicationsListHTML;
-    $fileName = '';
 }
 
-?>
