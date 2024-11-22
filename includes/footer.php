@@ -7,7 +7,7 @@
     Email: <a class = "" href="directoriucnd@cusat.ac.in">directoriucnd@cusat.ac.in</a> </p>
   <br>
 	<p> &copy; IUCND <?php echo date("Y"); ?>. All Rights Reserved.</p>
-  <p class="">Designed &amp; Developed by: <strong>Maya Grafix.</strong> <a class="" href="mailto:getintouch@mayagrafix.com">getintouch@mayagrafix.com</a></p>
+  <p class="">Designed &amp; Developed by: <strong><a class="" href="https://mayagrafix.com/">Maya Grafix.</a></strong> </p>
 </div>
 <!-- End footer --> 
 
