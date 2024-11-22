@@ -314,14 +314,17 @@ function writePublicationsList($publicationsPageName)
     $writePublicationsListHTML = "";
 
     if ($publicationsPageName != 'journal-articles') {
-        $writePublicationsListHTML .= '<ul class="iucnd-list">';
+        $writePublicationsListHTML .= '<ol class="iucnd-list">';
         if (($handle = fopen($fileName, "r")) !== FALSE) {
+            $writePublicationsListHTML = '<ol>';
             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                $writePublicationsListHTML .= "<li>" . htmlspecialchars($data[0]) . "</li>";
+                // Do not use htmlspecialchars if the data contains valid HTML
+                $writePublicationsListHTML .= "<li>" . $data[0] . "</li>";
             }
             fclose($handle);
+            $writePublicationsListHTML .= '</ol>';
         }
-        $writePublicationsListHTML .= '</ul>';
+
     } else {
         foreach ($journalFiles as $year => $journalFileName) {
             // Add the year as a heading
